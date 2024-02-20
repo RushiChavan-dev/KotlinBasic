@@ -6,4 +6,4 @@ Command to COMPILE the code and create jar file
 
 
 Command to RUN the code and create jar file
-/.cmdr Filename.kt  
+/.cmdr Filename.kt.jar

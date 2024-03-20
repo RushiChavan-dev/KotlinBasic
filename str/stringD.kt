@@ -70,4 +70,22 @@ fun main(){
     println(x===y) // true , as both are pointing to the same StringPool
     println(x==z)  //false since values are not equal
     println(x===z) // false
+
+
+
+    println()
+    println("------String Split ------")
+
+    var str1 = "My name is rushi"
+
+    val splited = str1.split("n")
+
+    println(splited)
+
+
+
+    println("------Regex Patern ------")
+    val str = "Hello World!123How456AreYou"
+    val parts = str.split(Regex("[!\\d]+")) // Split the string by non-digit characters or '!'
+    println(parts)
 }
